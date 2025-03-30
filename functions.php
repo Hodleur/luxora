@@ -80,4 +80,9 @@ add_action('wp_enqueue_scripts', 'luxora_scripts');
 require_once LUXORA_DIR . '/inc/template-functions.php';
 require_once LUXORA_DIR . '/inc/template-tags.php';
 require_once LUXORA_DIR . '/inc/customizer.php';
-require_once LUXORA_DIR . '/inc/woocommerce.php'; 
+require_once LUXORA_DIR . '/inc/woocommerce.php';
+
+/**
+ * Include admin files
+ */
+require_once LUXORA_DIR . '/admin/class-luxora-admin.php'; 
