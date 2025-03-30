@@ -1,107 +1,40 @@
 # Changelog
 
-Tous les changements notables de ce projet seront documentés dans ce fichier.
+Toutes les modifications notables de ce projet seront documentées dans ce fichier.
 
 Le format est basé sur [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/),
 et ce projet adhère à [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.1] - 2024-03-30
-
-### Ajouté
-- Support complet de WooCommerce avec personnalisation des textes et des styles
-- Page d'administration du thème avec guide de démarrage
-- Styles personnalisés pour l'interface d'administration
-- Scripts JavaScript pour la gestion des notices et animations
-
-### Modifié
-- Amélioration de la structure des fichiers dans le répertoire `inc/`
-- Optimisation des styles WooCommerce
-- Mise à jour des textes traduits en français
-
-### Structure des fichiers mise à jour
-```
-luxora/
-├── admin/
-│   ├── css/
-│   │   └── admin.css
-│   ├── js/
-│   │   └── admin.js
-│   └── class-luxora-admin.php
-├── inc/
-│   ├── template-functions.php
-│   ├── template-tags.php
-│   ├── customizer.php
-│   └── woocommerce.php
-└── ...
-```
-
 ## [1.0.0] - 2024-03-30
 
 ### Ajouté
-- Structure initiale du thème
-- Configuration de base WordPress
-- Intégration de Tailwind CSS
-- Support WooCommerce
-- Support Elementor
-- Système de design personnalisé
-- Composants de base (header, footer, content)
+- Lancement initial du thème Luxora
+- Nouveau tableau de bord d'administration
+- Intégration du constructeur de pages
+- Support complet de WooCommerce
+- Mode sombre pour l'interface d'administration
+- Système de gestion des licences
+- Documentation complète intégrée
 
-### Structure des fichiers
-```
-luxora/
-├── assets/
-│   ├── css/
-│   │   ├── src/
-│   │   │   └── style.css
-│   │   └── tailwind.css
-│   └── js/
-│       └── main.js
-├── inc/
-│   ├── template-functions.php
-│   ├── template-tags.php
-│   ├── customizer.php
-│   └── woocommerce.php
-├── template-parts/
-│   └── content.php
-├── style.css
-├── functions.php
-├── index.php
-├── header.php
-├── footer.php
-├── tailwind.config.js
-├── package.json
-└── CHANGELOG.md
-```
+### Modifié
+- Optimisation des performances de chargement
+- Interface utilisateur modernisée
+- Amélioration de la stabilité générale
 
-### Détails techniques
-- **WordPress** : Version minimale 5.9
-- **PHP** : Version minimale 7.4
-- **Tailwind CSS** : Version 3.4.1
-- **Node.js** : Requis pour la compilation des assets
+### Corrigé
+- Problèmes de compatibilité avec PHP 8.0+
+- Conflits avec certains plugins populaires
+- Problèmes d'affichage sur mobile
 
-### Fonctionnalités implémentées
-- Support des images à la une
-- Support des logos personnalisés
-- Menus de navigation (principal et footer)
-- Support des widgets
-- Intégration WooCommerce
-- Support multilingue
-- Design responsive
-- Typographies personnalisées (Playfair Display et Inter)
-- Système de couleurs personnalisé
-- Composants réutilisables (boutons, conteneurs)
+### Sécurité
+- Mise en place du système de licences
+- Protection des fichiers sensibles
+- Validation des entrées utilisateur
 
-### Styles
-- Palette de couleurs personnalisée
-- Système de typographie
-- Composants UI de base
-- Animations et transitions
-- Classes utilitaires Tailwind
+### Documentation
+- Guide d'installation
+- Tutoriels vidéo
+- Documentation technique
+- FAQ
 
-### Scripts
-- Configuration de base JavaScript
-- Support des commentaires
-- Intégration jQuery
-
-[1.0.1]: https://hodleur.com/luxora/releases/v1.0.1
-[1.0.0]: https://hodleur.com/luxora/releases/v1.0.0 
+[1.0.0]: https://github.com/votre-repo/luxora/releases/tag/v1.0.0 
