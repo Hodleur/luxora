@@ -1,0 +1,38 @@
+# Dépendances
+/node_modules
+/vendor
+
+# Fichiers de build
+/assets/css/tailwind.css
+/assets/js/*.min.js
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
+
+# Fichiers d'environnement
+.env
+.env.*
+!.env.example
+
+# Fichiers de cache
+*.cache
+*.log
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+*~
+
+# Fichiers de configuration IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de test
+/tests/coverage/
+.phpunit.result.cache
+
+# Fichiers de documentation générés
+/docs/_build/ 

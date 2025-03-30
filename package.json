@@ -1,0 +1,18 @@
+{
+  "name": "luxora",
+  "version": "1.0.0",
+  "description": "Thème WordPress premium moderne et accessible",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./assets/css/src/style.css -o ./assets/css/tailwind.css --watch",
+    "build": "npx tailwindcss -i ./assets/css/src/style.css -o ./assets/css/tailwind.css --minify"
+  },
+  "author": "HODLEUR",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+} 

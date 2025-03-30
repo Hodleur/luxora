@@ -1,0 +1,17 @@
+/*
+Theme Name: Luxora
+Theme URI: https://hodleur.com/luxora
+Author: HODLEUR
+Author URI: https://hodleur.com
+Description: Un thème WordPress premium moderne et accessible, orienté e-commerce. Compatible WooCommerce et Elementor.
+Version: 1.0.0
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: luxora
+Tags: e-commerce, custom-colors, custom-menu, custom-logo, featured-images, threaded-comments, translation-ready, blog, right-sidebar, custom-background, elementor, woocommerce
+*/
+
+/* Le reste des styles sera géré par Tailwind CSS */ 
